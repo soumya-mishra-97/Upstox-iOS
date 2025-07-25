@@ -13,11 +13,9 @@ production codebase.
 -- Specific to iOS: Clean UI (with no constraint warnings, preferably develop UI through
 code)
 
----
-### Note- Ignore tab bar, this is just for reference
--- Red Colour arrow indicates values from the JSON response
--- Green Colour arrow indicates values from the below calculations
----
+- Note: Ignore tab bar, this is just for reference
+> Red Colour arrow indicates values from the JSON response
+> Green Colour arrow indicates values from the below calculations
 
 ## Calculation:
 - Current value = sum of (Last traded price * quantity of holding ) of all the holdings
@@ -26,7 +24,7 @@ code)
 - Today’s PNL = sum of ((Close - LTP ) * quantity) of all the holdings.
 
 ## Guidelines for iOS
-- Acceptance Criteria
+-- Acceptance Criteria
 -- Your selection chances are higher if
 -- You use the latest version of Swift.
 -- You create UI Programmatically using UIKit Framework
@@ -37,15 +35,13 @@ code)
 -- Your app does not have too many dependencies on third party frameworks.
 -- Your app runs smoothly offline.
 
----
-# Note: 
+## Note: 
 -- We may reject your application if Your project fails to compile or compiled with warnings with the latest version of Xcode.
 -- If you use Swift UI Your app does not layout correctly for all iOS devices that can run the current release of iOS.
 -- Your app has UI/logical flaws that make it difficult to use.
 -- You do not have unit tests in your application with decent code coverage.
 -- Your unit tests fail.
 -- If auto layout engine throws constraints error during runtime.
----
 
 ## Tech Stack
 
