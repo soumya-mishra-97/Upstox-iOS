@@ -14,7 +14,7 @@ production codebase.
 code)
 
 ---
-## Note- Ignore tab bar, this is just for reference
+### Note- Ignore tab bar, this is just for reference
 -- Red Colour arrow indicates values from the JSON response
 -- Green Colour arrow indicates values from the below calculations
 ---
@@ -26,8 +26,8 @@ code)
 - Today’s PNL = sum of ((Close - LTP ) * quantity) of all the holdings.
 
 ## Guidelines for iOS
-# Acceptance Criteria
-- Your selection chances are higher if
+- Acceptance Criteria
+-- Your selection chances are higher if
 -- You use the latest version of Swift.
 -- You create UI Programmatically using UIKit Framework
 -- You adhere to Apple’s Human Interface Guidelines and coding conventions.
@@ -38,11 +38,9 @@ code)
 -- Your app runs smoothly offline.
 
 ---
-# Note: We may reject your application if
--- Your project fails to compile or compiled with warnings with the latest version of
-Xcode.
--- If you use Swift UI
--- Your app does not layout correctly for all iOS devices that can run the current release of iOS.
+# Note: 
+-- We may reject your application if Your project fails to compile or compiled with warnings with the latest version of Xcode.
+-- If you use Swift UI Your app does not layout correctly for all iOS devices that can run the current release of iOS.
 -- Your app has UI/logical flaws that make it difficult to use.
 -- You do not have unit tests in your application with decent code coverage.
 -- Your unit tests fail.
