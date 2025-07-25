@@ -2,7 +2,7 @@
 //  UIViewController+Extensions.swift
 //  Upstox-iOS-V1
 //
-//  Created by Ashis Kumar Mishra on 25/07/25.
+//  Created by Soumya Mishra on 25/07/25.
 //
 
 import UIKit
